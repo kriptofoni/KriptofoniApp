@@ -17,17 +17,14 @@ export const ConfigData = {
 
 
   // SHOW ALL YOUR CATEGORIES ( TRUE - display all category )
-  'isExcludeCategoryEnabled': false,
+  'isExcludeCategoryEnabled': true,
 
   'excludeFromMenu': {
     // 'travel': true,
   },
 
   'includeFromMenu': {
-    'bitcoin-haberleri': true,
-    'kripto-para-haberleri': true,
-    'altcoin-haberleri': true,
-    'defi-haberleri': true
+    //'travel': true
   },
 
 
