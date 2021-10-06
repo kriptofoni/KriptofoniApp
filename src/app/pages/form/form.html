@@ -4,7 +4,7 @@
       <ion-buttons slot="start">
         <ion-back-button defaultHref="/"></ion-back-button>
       </ion-buttons>
-      <ion-title class="ion-text-uppercase">Deco New</ion-title>
+      <ion-title class="ion-text-uppercase">Yorum Yap</ion-title>
     </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -14,7 +14,7 @@
       <ion-col size="12">
         <!-- Input type name-->
         <ion-item class="ion-margin-top box-shadow" lines="none">
-          <ion-input type="text" placeholder="Your Name" [(ngModel)]="authorName"></ion-input>
+          <ion-input type="text" placeholder="Adınız Soyadınız" [(ngModel)]="authorName"></ion-input>
           <!-- Error for name valid-->
           <div class="item-content">
             <ion-icon ion-text *ngIf="!isAuthorValid" color="danger" name="remove-circle"></ion-icon>
@@ -22,7 +22,7 @@
         </ion-item>
         <!-- Input type email-->
         <ion-item class="ion-margin-top box-shadow" lines="none">
-          <ion-input type="text" placeholder="Your Email Address" [(ngModel)]="authorEmail"></ion-input>
+          <ion-input type="text" placeholder="E-Posta Adresiniz" [(ngModel)]="authorEmail"></ion-input>
           <!-- Error for email valid-->
           <div class="item-content">
             <ion-icon ion-text *ngIf="!isEmailValid" color="danger" name="remove-circle"></ion-icon>
@@ -30,7 +30,7 @@
         </ion-item>
         <!-- Input type Comment -->
         <ion-item class="textarea ion-margin-top box-shadow" lines="none">
-          <ion-textarea placeholder="Comment" [(ngModel)]="comment"></ion-textarea>
+          <ion-textarea placeholder="Yorumunuz" [(ngModel)]="comment"></ion-textarea>
           <!-- Error for comments valid-->
           <div class="item-content">
             <ion-icon class="ion-margin-top ion-text" *ngIf="!isCommentValid" color="danger" name="remove-circle"></ion-icon>
@@ -43,6 +43,6 @@
 <ion-footer>
   <ion-toolbar class="transparent">
     <!-- Wtite a comment-->
-    <ion-button class="default-button box-shadow" expand="full" (click)="addComment($event)">Send</ion-button>
+    <ion-button class="default-button box-shadow" expand="full" (click)="addComment($event)">Gönder</ion-button>
   </ion-toolbar>
 </ion-footer>

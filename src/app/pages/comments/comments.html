@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-uppercase">Deco New</ion-title>
+    <ion-title class="ion-text-uppercase">Yorumlar</ion-title>
   </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -35,8 +35,8 @@
       <ion-col size="12">
         <div class="no-post ion-text-center">
           <img src="../assets/imgs/decoLogo.png" alt="" />
-          <h1 class="text-size-xl text-color-primary">Uups, no data!</h1>
-          <p class="text-size-md text-color-primary">Sorry no comment here</p>
+          <h1 class="text-size-xl text-color-primary">Yorum Yapılmamış</h1>
+          <p class="text-size-md text-color-primary">Henüz hiç yorum yapılmamış.</p>
         </div>
       </ion-col>
     </ion-row>
@@ -53,12 +53,12 @@
   <ion-infinite-scroll threshold="100px" (ionInfinite)="doInfinite($event)">
     <ion-infinite-scroll-content
       loadingSpinner="bubbles"
-      loadingText="Loading more data...">
+      loadingText="Daha fazlasını görüntüle...">
     </ion-infinite-scroll-content>
   </ion-infinite-scroll>
 </ion-content>
 <ion-footer>
   <ion-toolbar class="transparent">
-    <ion-button *ngIf="isCommentEnabled(post)" expand="full" class="default-button" (click)="openComment($event)">Write a Comment</ion-button>
+    <ion-button *ngIf="isCommentEnabled(post)" expand="full" class="default-button" (click)="openComment($event)">Yorum Yap</ion-button>
   </ion-toolbar>
 </ion-footer>

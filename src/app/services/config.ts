@@ -1,7 +1,7 @@
 export const ConfigData = {
 
   // DEFINE YOUR URL
-  'rootUrl': 'https://deconews.decouikit.com/wp-json/wp/v2/',
+  'rootUrl': 'https://www.kriptofoni.com/wp-json/wp/v2/',
 
   // enableExcludeFromMenu SET TO true TO ENABLE excudeFromMenu
   //if want to exclude from menu your category set value FALSE
@@ -9,10 +9,10 @@ export const ConfigData = {
 
   // SOCIAL NETWORK
   'socialLink': {
-    'facebook': 'https://www.facebook.com',
-    'twitter': 'https://twitter.com',
+    'facebook': 'https://www.facebook.com/kriptofoni',
+    'twitter': 'https://twitter.com/kriptofoni',
     'youtube': 'https://www.youtube.com/',
-    'instagram': 'https://www.instagram.com'
+    'instagram': 'https://www.instagram.com/kriptofoni'
   },
 
 
