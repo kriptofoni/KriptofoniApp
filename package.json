@@ -128,7 +128,7 @@
       "ionic-plugin-deeplinks": {
         "URL_SCHEME": "deconews",
         "DEEPLINK_SCHEME": "https",
-        "DEEPLINK_HOST": "deconews.decouikit.com",
+        "DEEPLINK_HOST": "kriptofoni.com",
         "ANDROID_PATH_PREFIX": "/",
         "ANDROID_2_PATH_PREFIX": "/",
         "ANDROID_3_PATH_PREFIX": "/",

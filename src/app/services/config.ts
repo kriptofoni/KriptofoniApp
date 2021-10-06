@@ -43,7 +43,7 @@ export const ConfigData = {
 
 
   // SETTINGS DEFAUTL COLOR COMBINATION
-  'colorTheme': 'dark-themes',
+  'colorTheme': 'light-themes',
 
 
   // SETTINGS RTL ( FALSE - is not set rtl default  )
@@ -55,7 +55,7 @@ export const ConfigData = {
 
 
   // SLIDER NUMBER BUT IT IS NOT STICKY ( isFeaturesPostsGetFromSticky:FALSE)
-  'numberOfItemForSlider': 3,
+  'numberOfItemForSlider': 5,
 
   // SETTINGS NUMBER POSTS ON CATEGORY
   'numberOfItemPerPage': 30,
