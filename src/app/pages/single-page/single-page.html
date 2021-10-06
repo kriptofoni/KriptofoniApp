@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-uppercase"><h1 class="text-size-xl text-color-primary" [innerHTML]="htmlTitle"></h1></ion-title>
+    <ion-title class="ion-text-uppercase">Yazı İçeriği</ion-title>
   </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -50,7 +50,7 @@
                 <div class="commnets ion-margin-horizontal" (click)="openCommentList(post, $event)">
                   <ion-icon class="icon-small" name="chatbubble"></ion-icon>
                   <p class="text-size-p text-color-primary"> {{ numberOfComment > 99 ? '99+' : numberOfComment }}
-                    comments</p>
+                    Yorum</p>
                 </div>
               </ion-label>
             </ion-item>
@@ -71,6 +71,6 @@
   <ion-toolbar class="transparent">
     <!-- Wtite a comment-->
     <ion-button *ngIf="isCommentEnabled(post)" expand="full" class="default-button" (click)="openComment(post, $event)">
-      Write a Comment</ion-button>
+      Yorum Yap</ion-button>
   </ion-toolbar>
 </ion-footer>
