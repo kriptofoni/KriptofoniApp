@@ -1,0 +1,60 @@
+<ion-app>
+  <ion-split-pane when="md" contentId="main">
+    <ion-menu side="start" contentId="main">
+      <ion-header>
+        <!-- <ion-toolbar>
+          <ion-title class="ion-text-uppercase">Menu</ion-title>
+        </ion-toolbar> -->
+      </ion-header>
+      <!-- Content -->
+      <ion-content>
+        <ion-row class="ion-padding">
+          <ion-col size="12" class="ion-align-self-start">
+            <ion-item lines="none" class="ion-no-padding">
+              <ion-thumbnail slot="start">
+                <img class="logo d-flex" src="../assets/imgs/logo-1.png" alt="">
+              </ion-thumbnail>
+              <ion-label>
+                <h1 class="text-size-sm ion-no-margin">DevsPush Shop</h1>
+                <h2 class="text-size-xl ion-no-margin">Deco News App</h2>
+              </ion-label>
+            </ion-item>
+          </ion-col>
+          <ion-col size="12" class="ion-align-self-center">
+            <!-- Menu List -->
+            <ion-list class="ion-no-padding">
+              <ion-menu-toggle auto-hide="false" *ngFor="let p of pages">
+                <ion-item lines="none" class="ion-no-padding" [routerDirection]="'root'" (click)="openPage(p)">
+                  <!-- Menu Icon-->
+                  <ion-icon [name]="p.icon" class="icon-small"></ion-icon>
+                  <!-- Menu Title-->
+                  <ion-label>
+                    <h1 class="text-size-xs text-color-primary">{{p.title}}</h1>
+                  </ion-label>
+                </ion-item>
+              </ion-menu-toggle>
+            </ion-list>
+          </ion-col>
+          <ion-col size="12" class="ion-align-self-end">
+            <!-- FaceBook -->
+            <a class="button-link" target="_blank" [href]="socialLink.facebook" *ngIf="socialLink.facebook">
+              <ion-icon class="icon-small ion-margin-end" name="logo-facebook"></ion-icon>
+            </a>
+            <!-- Twitter -->
+            <a class="button-link" target="_blank" [href]="socialLink.twitter" *ngIf="socialLink.twitter">
+              <ion-icon class="icon-small ion-margin-end" name="logo-twitter"></ion-icon>
+            </a>
+            <!-- Youtube -->
+            <a class="button-link" target="_blank" [href]="socialLink.youtube" *ngIf="socialLink.youtube">
+              <ion-icon class="icon-small ion-margin-end" name="logo-youtube"></ion-icon>
+            </a>
+            <a class="button-link" target="_blank" [href]="socialLink.instagram" *ngIf="socialLink.instagram">
+              <ion-icon class="icon-small ion-margin-end" name="logo-instagram"></ion-icon>
+            </a>
+          </ion-col>
+        </ion-row>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet Id="main"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

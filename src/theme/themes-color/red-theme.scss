@@ -1,0 +1,69 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables **/
+
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables **/
+
+.red-themes {
+
+  --deco-background-primary: #fff;
+  --deco-background-secondary: #fafafa;
+  --deco-background-dark: #1b1e28;
+  --deco-background-dark-basic: #AAB2B7;
+  --deco-background-accent: #F03D3F;
+
+  --deco-toolbar-background: #F03D3F;
+  --deco-toolbar-title: #fff;
+  --deco-button-title: #fff;
+
+  --deco-color-primary: #fff;
+  --deco-color-secondary: #fafafa;
+  --deco-color-danger: #F03D3F;
+  --deco-color-dark: #7F7E96;
+
+  --deco-icon-color: #CCCBDA;
+
+  /* Settings Fonts Size And Icon Size
+=======================================================
+=======================================================*/
+  --fallback-color: red;
+  --h1-font-size: 20px;
+  --h2-font-size: 18px;
+  --h3-font-size: 16px;
+  --h4-font-size: 15px;
+  --h5-font-size: 14px;
+  --h6-font-size: 12px;
+  --text-font-size: 14px;
+
+  /* Settings Fonts Size Icon
+=======================================================
+=======================================================*/
+
+  --icon-size-small: 20px;
+  --icon--size-medium: 32px;
+  --icon-size-large: 60px;
+
+  /* Settings Font Span
+=======================================================
+=======================================================*/
+
+  --span-size-small: 12px;
+  --span-size-medium: 24px;
+  --span-size-large: 30px;
+
+  /* SETTINGS CHECKBOX
+=======================================================
+=======================================================*/
+  ion-checkbox {
+    --border-color-checked: var(--deco-background-accent, #F03D3F);
+    --border-color: var(--deco-background-accent, #F03D3F);
+    --background-checked: #fff;
+    --checkmark-color: var(--deco-background-accent, #F03D3F);
+  }
+
+}
+

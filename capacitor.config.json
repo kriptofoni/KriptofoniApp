@@ -1,0 +1,8 @@
+{
+  "appId": "com.decouikit.newsIonic",
+  "appName": "Ionic4News",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

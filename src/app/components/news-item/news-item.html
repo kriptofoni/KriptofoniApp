@@ -1,0 +1,21 @@
+<ion-item lines="none" class="box-shadow ion-no-padding border-radius ion-margin-top" *ngIf="data" (click)="openSinglePost(data)">
+  <ion-thumbnail slot="start">
+    <img class="border-radius" [src]="data.image" alt="">
+    <span class="border-radius text-uppercase category">{{data.category}}</span>
+  </ion-thumbnail>
+  <ion-label>
+    <h2 class="ion-text-wrap text-size-xs text-color-primary margin-bottom">{{data.title}}</h2>
+    <div class="data-info">
+      <!-- Data time -->
+      <div class="time">
+        <ion-icon class="icon-small" name="time"></ion-icon>
+        <p class="text-size-p ion-no-margin text-color-primary">{{data.time | date:'d MMMM yyyy'}}</p>
+      </div>
+      <!-- Bookmark -->
+      <ion-button fill="clear" class="bookMark" (click)="bookmark(data, $event)"
+        [ngClass]="{'active' : data.bookmark}">
+        <ion-icon slot="icon-only" class="icon-small" name="bookmark"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-label>
+</ion-item>

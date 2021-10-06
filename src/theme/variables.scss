@@ -1,0 +1,442 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+
+/** Ionic CSS Variables **/
+:root {
+
+  --deco-background-primary: #ffffff;
+  --deco-background-secondary: #fafafa;
+  --deco-background-dark: #1b1e28;
+  --deco-background-dark-basic: #AAB2B7;
+  --deco-background-accent: #1b1e28;
+
+  --deco-toolbar-background: #fff;
+  --deco-toolbar-title: #1b1e28;
+  --deco-button-title: #fff;
+
+  --deco-color-primary: #fff;
+  --deco-color-secondary: #fafafa;
+  --deco-color-danger: #CB0000;
+  --deco-color-dark: #7F7E96;
+
+  --deco-icon-color: #CCCBDA;
+
+  /* Settings Fonts Size And Icon Size
+=======================================================
+=======================================================*/
+  --fallback-color: red;
+  --h1-font-size: 20px;
+  --h2-font-size: 18px;
+  --h3-font-size: 16px;
+  --h4-font-size: 15px;
+  --h5-font-size: 14px;
+  --h6-font-size: 12px;
+  --text-font-size: 14px;
+
+  /* Settings Fonts Size Icon
+=======================================================
+=======================================================*/
+
+  --icon-size-small: 20px;
+  --icon--size-medium: 32px;
+  --icon-size-large: 60px;
+
+  /* Settings Font Span
+=======================================================
+=======================================================*/
+
+  --span-size-small: 12px;
+  --span-size-medium: 24px;
+  --span-size-large: 30px;
+
+  /* SETTINGS CHECKBOX
+=======================================================
+=======================================================*/
+  ion-checkbox {
+    --border-color-checked: #1b1e28;
+    --border-color: #1b1e28;
+    --background-checked: #fff;
+    --checkmark-color: #1b1e28;
+  }
+
+
+  /* Settings Gradijent Images*/
+--gradient-images-primary: rgba(0, 0, 0, 0.4);
+--gradient-images-secondary: rgba(0,  0, 0, 0.2);
+
+--gradient-image: linear-gradient(to top, var(--gradient-images-primary) 0%, var(--gradient-images-secondary) 100%);
+}
+
+
+/* INCLUDE FONTS AND COLOR CHANGE
+=======================================================
+=======================================================*/
+@import 
+'themes-color/blue-theme',
+'themes-color/dark-theme', 
+'themes-color/grape-theme',
+'themes-color/green-theme',
+'themes-color/light-theme', 
+'themes-color/orange-theme',
+'themes-color/pink-theme',
+'themes-color/red-theme',
+'themes-color/teal-theme',
+'themes-color/violet-theme',
+'themes-color/yellow-theme';
+
+
+@import "fontello";
+@import "roboto-fonts";
+@import "rtl";
+
+
+
+body {
+  --ion-font-family: 'Roboto', "sans-serif";
+}
+
+
+
+
+/* SETTINGS TOOLBAR
+=======================================================
+=======================================================*/
+.header-md:after,
+.footer-md:before {
+  background-image: none !important;
+}
+
+/* SETTINGS TEXT COLOR
+=======================================================
+=======================================================*/
+.text-color-primary {
+  color: var(--deco-background-dark, #1b1e28);
+}
+
+/* SETTINGS FONT SIZE
+=======================================================
+=======================================================*/
+.text-size-xl {
+  font-size: var(--h1-font-size, 20px) !important;
+}
+
+.text-size-lg {
+  font-size: var(--h2-font-size, 18px) !important;
+}
+
+.text-size-md {
+  font-size: var(--h3-font-size, 16px) !important;
+}
+
+.text-size-xs {
+  font-size: var(--h4-font-size, 14px) !important;
+}
+
+.text-size-sm {
+  font-size: var(--h5-font-size, 15px) !important;
+}
+
+.text-size-p {
+  font-size: var(--text-font-size, 14px) !important;
+}
+
+.text-nowrap {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+page-home {
+  .swiper-pagination.swiper-pagination-bullets {
+    bottom: 5px !important;
+
+    .swiper-pagination-bullet-active {
+      --bullet-background: var(--deco-background-dark, #1b1e28) !important;
+      background: var(--bullet-background);
+
+    }
+  }
+}
+
+.modal-wrapper {
+  ion-slide {
+    background-color: var(--deco-background-primary);
+  }
+}
+
+news-wizard {
+  .swiper-pagination.swiper-pagination-bullets {
+    bottom: 60px !important;
+
+    .swiper-pagination-bullet-active {
+      --bullet-background: #fff !important;
+      background: #fff;
+
+    }
+  }
+}
+
+/* SETTINGS TAGS SINGLE PAGE
+=======================================================
+=======================================================*/
+.tag {
+  color: var(--deco-button-title);
+  background: var(--deco-background-accent, #1b1e28);
+  margin-right: 10px;
+  padding: 2px 7px;
+  border-radius: 10px;
+}
+
+
+/* SETTINGS BUTTON
+=======================================================
+=======================================================*/
+.default-button {
+  --padding-top: 20px;
+  --color-activated: var(--deco-color-secondary, #fafafa);
+  --padding-bottom: 20px;
+  --background: var(--deco-background-accent, #1b1e28);
+  --color: var(--deco-button-title, #fafafa);
+  --background-hover: var(--deco-background-dark, #1b1e28);
+  --ripple-color: transparent;
+  border-radius: 24px;
+  --border-radius: 24px;
+  overflow: hidden;
+  min-height: 45px;
+  text-transform: inherit;
+}
+
+.button-title{
+  color: var(--deco-background-dark-basic, #AAB2B7);
+  --color-activated: var(--deco-background-dark-basic, #AAB2B7);
+  font-weight: 400;
+  font-size: var(--h4-font-size, 14px);
+  text-transform: capitalize;
+}
+
+
+/* SETTINGS CATEGORY
+=======================================================
+=======================================================*/
+.category {
+  position: absolute;
+  top: 16px;
+  z-index: 999;
+  left: 16px;
+  border-radius: 4px;
+  background: var(--deco-color-danger, #CB0000);
+  padding: 6px;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: var(--deco-color-primary, #fff);
+}
+
+/* SETTINGS COLOR BACKGROUND OUR APP
+=======================================================
+=======================================================*/
+ion-content{
+  --background: var(--deco-color-secondary, #ffffff);
+}
+
+ion-refresher,
+page-recent-news {
+  background: var(--deco-color-secondary, #ffffff);
+}
+
+.refresher-refreshing .refresher-refreshing-icon ion-icon,
+.refresher-refreshing .refresher-refreshing-text,
+.refresher-pulling .refresher-pulling-icon ion-icon,
+.refresher-pulling .refresher-pulling-text,
+.refresher-refreshing-icon ion-spinner {
+  color: var(--deco-background-dark, #1b1e28) !important;
+}
+
+
+ion-list {
+  padding-top: 0 !important;
+}
+
+ion-item {
+  --background: var(--deco-background-primary, #ffffff);
+}
+
+ion-toolbar {
+  --background: var(--deco-toolbar-background, #ffffff);
+  --color: var(--deco-toolbar-title, #AAB2B7);
+
+  ion-title {
+    --color: var(--deco-toolbar-title, #1b1e28);
+    font-size: 16px;
+  }
+
+  ion-menu-button,
+  ion-back-button {
+    --color: var(--deco-toolbar-title, #1b1e28) !important;
+  }
+}
+
+ion-footer {
+  background: var(--deco-color-secondary);
+}
+
+/* SETTINGS SEARCH BAR
+=======================================================
+=======================================================*/
+
+ion-searchbar {
+  --background: var(--deco-background-secondary: #fafafa;) !important;
+}
+
+
+/* SETTINGS SEGMENT
+=======================================================
+=======================================================*/
+ion-segment {
+  --background: var(--deco-toolbar-background, #ffffff);
+}
+
+ion-segment-button {
+  --background: var(--deco-toolbar-background, #ffffff);
+  --background-checked: transparent;
+  --background-hover: transparent;
+  --color-checked: var(--deco-toolbar-title, #1b1e28);
+  --color: var(--deco-toolbar-title, #7F7E96);
+  --border-width: 0px;
+  --indicator-box-shadow: none !important;
+  --border-radius: 0;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  font-weight: bold;
+  min-width: unset;
+
+  &.ion-activatable-instant {
+    opacity: 0.8;
+  }
+
+  &.segment-button-checked {
+    opacity: 1;
+  }
+}
+
+//Setting for ios
+.ios {
+  ion-segment {
+    ion-segment-button {
+      --indicator-color: var(--deco-toolbar-background, #ffffff);
+    }
+    .segment-button-checked {
+      border-bottom: 2px solid var(--deco-toolbar-title, #1b1e28);
+    }
+  }
+}
+
+/* SETTINGS COLOR AND SIZE ICON
+=======================================================
+=======================================================*/
+.icon-small {
+  color: var(--deco-icon-color, #CCCBDA);
+  height: 20px;
+  width: 20px;
+}
+
+/* Image
+=======================================================
+=======================================================*/
+
+ion-img, img {
+  object-fit: cover;
+}
+
+/* Settings bookmark
+=======================================================
+=======================================================*/
+.bookMark {
+  ion-icon {
+    &.active {
+      color: var(--deco-color-danger, #CB0000) !important;
+    }
+  }
+}
+
+/* Default Overview Ionic Section
+=======================================================
+=======================================================*/
+.background-size {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.border-radius {
+  border-radius: 4px;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+
+.no-box-shadow {
+  box-shadow: none !important;
+}
+
+.box-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
+  z-index: 999;
+}
+
+.transparent {
+  --background: transparent;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+
+/* Settings all icon in news app
+=======================================================
+=======================================================*/
+// Bookmark
+.bookMark {
+
+  &.active ion-icon{
+      color: var(--deco-color-danger);
+  }
+}
+
+.bookMark-dark {
+
+  &.active ion-icon {
+    color: var(--deco-color-danger);
+  }
+}
+
+.time {
+  display: flex !important;
+  align-items: center;
+
+  p {
+    margin: 0 5px 0 5px;
+  }
+}
+
+
+.skeleton {
+  width: 100%;
+
+  ion-list {
+    background-color: transparent;
+  }
+
+}
+
+
+.ion-hide {
+  display: none;
+}
+
+.ion-visible {
+  display: block;
+}

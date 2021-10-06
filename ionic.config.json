@@ -1,0 +1,8 @@
+{
+  "name": "Ionic4News",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
