@@ -17,14 +17,17 @@ export const ConfigData = {
 
 
   // SHOW ALL YOUR CATEGORIES ( TRUE - display all category )
-  'isExcludeCategoryEnabled': true,
+  'isExcludeCategoryEnabled': false,
 
   'excludeFromMenu': {
     // 'travel': true,
   },
 
   'includeFromMenu': {
-    //'travel': true
+    'bitcoin-haberleri': true,
+    'kripto-para-haberleri': true,
+    'altcoin-haberleri': true,
+    'defi-haberleri': true
   },
 
 
@@ -58,7 +61,7 @@ export const ConfigData = {
   'numberOfItemForSlider': 5,
 
   // SETTINGS NUMBER POSTS ON CATEGORY
-  'numberOfItemPerPage': 30,
+  'numberOfItemPerPage': 10,
 
   'isCacheCategoryEnabled': false,  
   'cacheExpiredTime': 24 * 60 * 60 * 1000, //24H
@@ -67,7 +70,7 @@ export const ConfigData = {
     
   //ADS
   'bannerAds': {
-    'enable': true,
+    'enable': false,
     'config': {
       'id': '',
       'isTesting': true,
@@ -78,11 +81,11 @@ export const ConfigData = {
   // How to set time open ADS page
   'interstitialAds': {
     'showAdsAfterXPosts': 10,
-    'enable': true,
+    'enable': false,
     'config': {
       'id': '',
-      'isTesting': true,
-      'autoShow': true
+      'isTesting': false,
+      'autoShow': false
     }
   }
 }
