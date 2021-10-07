@@ -33,7 +33,7 @@ export const ConfigData = {
 
   // SETTINGS PARAMS fOR ONE SIGNAL
   'oneSignal': {
-    "appID": "83db8e6c-0b1c-4a99-880a-7700e94dad3a",
+    "appID": "8f082bf8-1305-481f-b99c-441a7645b971",
     "googleProjectId": "827631053705"
   },
 
