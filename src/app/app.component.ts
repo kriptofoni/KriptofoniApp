@@ -29,11 +29,12 @@ export class AppComponent {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: "HomePage", icon: "book-outline", url: "home" },
-      { title: 'Category', component: "CategoryPage", icon: "reader-outline", url: "category" },
-      { title: 'Bookmark', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
-      { title: 'About', component: "AboutPage", icon: "flag-outline", url: "about" },
-      { title: 'Settings', component: "settings", icon: "settings-outline", url: "settings" },
+      { title: 'Anasayfa', component: "HomePage", icon: "book-outline", url: "home" },
+      { title: 'Kategoriler', component: "CategoryPage", icon: "reader-outline", url: "category" },
+      { title: 'Fiyatlar', component: "settings", icon: "settings-outline", url: "settings" },
+      { title: 'Favoriler', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
+      { title: 'Hakkımızda', component: "AboutPage", icon: "flag-outline", url: "about" },
+      { title: 'Ayarlar', component: "settings", icon: "settings-outline", url: "settings" },
     ];
   }
 

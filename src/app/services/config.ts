@@ -20,7 +20,7 @@ export const ConfigData = {
   'isExcludeCategoryEnabled': true,
 
   'excludeFromMenu': {
-    // 'travel': true,
+    'altcoin-rehberleri': true,
   },
 
   'includeFromMenu': {
@@ -70,8 +70,8 @@ export const ConfigData = {
     'enable': false,
     'config': {
       'id': '',
-      'isTesting': true,
-      'autoShow': true
+      'isTesting': false,
+      'autoShow': false
     }
   },
 
