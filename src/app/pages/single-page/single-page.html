@@ -33,12 +33,6 @@
             <div class="clearfix"></div>
             <!--- Title Post -->
             <h1 class="text-size-xl text-color-primary" [innerHTML]="htmlTitle"></h1>
-            <!--Tags-->
-            <ion-col size="12" *ngFor="let item of post.tagsList">
-              <span class="tag" (click)="openHashtag(item, $event)">
-                #{{item.slug}}
-              </span>
-            </ion-col>
             <ion-item class="ion-no-padding transparent" lines="none">
               <ion-label>
                 <!-- Time -->
