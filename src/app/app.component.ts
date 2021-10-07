@@ -31,6 +31,11 @@ export class AppComponent {
     this.pages = [
       { title: 'Anasayfa', component: "HomePage", icon: "book-outline", url: "home" },
       { title: 'Kategoriler', component: "CategoryPage", icon: "reader-outline", url: "category" },
+      { title: 'Fiyat Verileri (Canlı)', component: "", icon: "stats-chart-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
+      { title: '1 Saatin Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
+      { title: '24 Saatin Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
+      { title: '1 Haftanın Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
+      { title: '1 Ayın Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
       { title: 'Favoriler', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
       { title: 'Hakkımızda', component: "AboutPage", icon: "flag-outline", url: "about" },
       { title: 'Ayarlar', component: "settings", icon: "settings-outline", url: "settings" },
