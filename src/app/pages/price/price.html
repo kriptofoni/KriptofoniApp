@@ -1,0 +1,28 @@
+<!-- Page About -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button defaultHref="/"></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="ion-text-uppercase">{{about.headerTitle}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<!-- Content -->
+<ion-content >
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center align-self-start">
+        <div class="logo ion-padding-vertical">
+          <img [src]="about.titleImage" alt="" />
+          <h1 class="text-size-md text-color-primary">{{about.title}}</h1>
+          <p class="text-size-md text-color-primary">{{about.subtitle}}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="transparent">
+  <ion-toolbar>
+    <ion-button [href]="about.about_text_button_link" class="default-button" expand="full">{{about.about_text_button}}</ion-button>
+  </ion-toolbar>
+</ion-footer>

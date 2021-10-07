@@ -17,14 +17,14 @@ export const ConfigData = {
 
 
   // SHOW ALL YOUR CATEGORIES ( TRUE - display all category )
-  'isExcludeCategoryEnabled': false,
+  'isExcludeCategoryEnabled': true,
 
   'excludeFromMenu': {
     '32': true,
   },
 
   'includeFromMenu': {
-    '3': true
+    //'travel': true
   },
 
 
