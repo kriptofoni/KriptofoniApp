@@ -14,11 +14,6 @@
       </ion-segment-button>
     </ion-segment>
   </ion-toolbar>
-  <ion-toolbar *ngIf="isSearchActive" class="ion-hide ion-visible">
-    <ion-searchbar showCancelButton="always" [(ngModel)]="searchText" (ionClear)="setSearchActive(false, $event)"
-                   (ionCancel)="setSearchActive(false, $event)">
-    </ion-searchbar>
-  </ion-toolbar>
 </ion-header>
 <!-- Content -->
 <ion-content>
