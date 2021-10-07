@@ -13,15 +13,15 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.decouikit.newsIonic4</string>
+	<string>com.kripofoni.news</string>
 	<key>PROJECT_ID</key>
 	<string>deco-ionic4-news</string>
 	<key>STORAGE_BUCKET</key>
 	<string>deco-ionic4-news.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<key>AIzaSyBjEMhqJCOTNJGgGQLgzx_k1RX_ihspPM8</key>
+	<true></true>
 	<key>IS_APPINVITE_ENABLED</key>
 	<true></true>
 	<key>IS_GCM_ENABLED</key>

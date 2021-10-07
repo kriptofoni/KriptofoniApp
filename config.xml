@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.kriptofoni.news" version="0.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Kriptofoni</name>
-    <description>Kriptofoni.com mobil uygulaması.</description>
+    <description>iOS ve Android için kriptofoni.com mobil uygulaması.</description>
     <author email="info@kriptofoni.com" href="https://www.kriptofoni.com/">Kriptofoni</author>
     <content src="index.html" />
     <access origin="*" />
