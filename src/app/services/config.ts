@@ -20,7 +20,7 @@ export const ConfigData = {
   'isExcludeCategoryEnabled': true,
 
   'excludeFromMenu': {
-    '32': true,
+    'altcoin-rehberleri': true,
   },
 
   'includeFromMenu': {
