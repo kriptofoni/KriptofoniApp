@@ -43,12 +43,7 @@ const routes: Routes = [
   {
     path: 'intro-page',
     loadChildren: () => import('./pages/intro-page/intro-page.module').then(m => m.IntroPageModule)
-  },
-  {
-    path: 'price',
-    loadChildren: () => import('./pages/price/price.module').then( m => m.PricePageModule)
   }
-
 ];
 
 @NgModule({

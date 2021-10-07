@@ -31,7 +31,7 @@ export class AppComponent {
     this.pages = [
       { title: 'Anasayfa', component: "HomePage", icon: "book-outline", url: "home" },
       { title: 'Kategoriler', component: "CategoryPage", icon: "reader-outline", url: "category" },
-      { title: 'Fiyatlar', component: "price", icon: "price-outline", url: "price" },
+      { title: 'Fiyatlar (CANLI)', component: "price", icon: "price-outline", url: "https://www.kriptofoni.com" },
       { title: 'Favoriler', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
       { title: 'Hakkımızda', component: "AboutPage", icon: "flag-outline", url: "about" },
       { title: 'Ayarlar', component: "settings", icon: "settings-outline", url: "settings" },
