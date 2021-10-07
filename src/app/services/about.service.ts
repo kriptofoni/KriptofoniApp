@@ -7,13 +7,13 @@ export class AboutService {
 
     getAboutInformation() {
       return {
-        "headerTitle":"About",
-        "title": "Deco News",
+        "headerTitle":"Hakkımızda",
+        "title": "Kriptofoni",
         "titleImage": "../assets/imgs/decoLogo.png",
-        "subtitle": "WordPress to Ionic 6 / Angular 9 News App",
+        "subtitle": "Kriptofoni, 2020 yılında Kriptofoni Teknoloji ve Tic. Ltd. Şti. tarafından hayata geçirilmiş bir projedir. Dünya ve Türkiye gündeminde yer alan Bitcoin ve diğer kripto para haberlerini herkesin anlayacağı bir dil ile kullanıcılarına sunar. Sadece gerekli bilgileri vererek ziyaretçilerini kripto para dünyası hakkında bilgilendirmeyi amaç edinmiştir.  Kriptofoni, tamamen tarafsız bir kripto para haber platformu olup, içeriklerini kendi yazar kadrosuyla üretmektedir. Ziyaretçilerinin ilgi duyduğu kripto para alanında makaleler ve videolar ile güncel içerikleri onlara ücretsiz olarak sunmaktadır. Kriptofoni ekibi ile iletişime geçmek için info@kriptofoni.com e-posta adresini kullanabilirsiniz.",
         "description": "Amazing list of features",
         "about_text_button": "Purchase Now",
-        "about_text_button_link": "https://devspush.com/deco-news-ionic-4-mobile-app-for-wordpress-angular-7-sass-firebase-admob-onesignal",
+        "about_text_button_link": "https://www.kriptofoni.com/iletisim-contact-us/",
         "items": [
           {
             "title": "No need for development skills",
