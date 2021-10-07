@@ -102,9 +102,19 @@ margin-bottom: 10px !important;
 font-size: 15px !important;
 }
 
-.card-content-android p {
+.card-content-md p {
 margin-bottom: 10px !important;
 font-size: 15px !important;
+}
+
+.card-content-ios h3, .card-content-ios h4, .card-content-ios h5, .card-content-ios h6 {
+margin-bottom: 10px !important;
+font-size: 18px !important;
+}
+
+.card-content-md h3, .card-content-md h4, .card-content-md h5, .card-content-md h6 {
+margin-bottom: 10px !important;
+font-size: 18px !important;
 }
 
 /* SETTINGS TOOLBAR
@@ -127,6 +137,7 @@ font-size: 15px !important;
 =======================================================*/
 .text-size-xl {
   font-size: var(--h1-font-size, 20px) !important;
+  font-weight: 500 !important;
 }
 
 .text-size-lg {

@@ -60,6 +60,12 @@
             <!--- Content with web site-->
             <div [innerHTML]="htmlContent"></div>
           </ion-card-content>
+          <!--Tags-->
+          <ion-col size="12" *ngFor="let item of post.tagsList">
+              <span class="tag" (click)="openHashtag(item, $event)">
+                #{{item.slug}}
+              </span>
+          </ion-col>
         </ion-card>
         <news-list [categoryId]="post.categoryId" [postId]="post.id" [title]=""
           (onItemClick)="onItemClick($event)"></news-list>
