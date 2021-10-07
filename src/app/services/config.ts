@@ -17,14 +17,14 @@ export const ConfigData = {
 
 
   // SHOW ALL YOUR CATEGORIES ( TRUE - display all category )
-  'isExcludeCategoryEnabled': true,
+  'isExcludeCategoryEnabled': false,
 
   'excludeFromMenu': {
-    'altcoin-rehberleri': true,
+    '32': true,
   },
 
   'includeFromMenu': {
-    //'travel': true
+    '3': true
   },
 
 
