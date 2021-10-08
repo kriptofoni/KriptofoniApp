@@ -21,8 +21,6 @@
           <ion-card-header class="ion-no-padding">
             <!-- Name Category -->
             <span class="ion-float-start category border-radius">{{post.category}}</span>
-            <!-- Author 1 -->
-            <span class="ion-float-start category border-radius">{{post.author}}</span>
             <!-- Bookmark -->
             <ion-button size="small" class="ion-float-end bookMark-dark" fill="clear"
               (click)="bookmark(post, $event)" [ngClass]="{'active' : post.bookmark}">
