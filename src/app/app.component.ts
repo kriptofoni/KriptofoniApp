@@ -41,7 +41,7 @@ export class AppComponent {
       { title: '1 Haftanın En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-haftada-en-cok-dusen-coinler/" },
       { title: '1 Ayın En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-ayda-en-cok-dusen-coinler/" },
       { title: 'Favoriler', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
-      { title: 'Hakkımızda', component: "AboutPage", icon: "flag-outline", url: "about" },
+      { title: 'İletişim', component: "AboutPage", icon: "flag-outline", url: "about" },
       { title: 'Ayarlar', component: "settings", icon: "settings-outline", url: "settings" },
     ];
   }
