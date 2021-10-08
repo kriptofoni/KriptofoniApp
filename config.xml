@@ -104,10 +104,10 @@
     </plugin>
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.1.3" />
     <plugin name="cordova-plugin-admob-free" spec="^0.25.0">
-        <variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544/6300978111" />
+        <variable name="ADMOB_APP_ID" value="" />
     </plugin>
     <plugin name="ionic-plugin-deeplinks" spec="^1.0.17">
-        <variable name="URL_SCHEME" value="deconews" />
+        <variable name="URL_SCHEME" value="kriptofoni" />
         <variable name="DEEPLINK_SCHEME" value="https" />
         <variable name="DEEPLINK_HOST" value="kriptofoni.com" />
         <variable name="ANDROID_PATH_PREFIX" value="/" />
