@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kriptofoni</string>
+    <string name="title_activity_main">Kriptofoni</string>
+    <string name="package_name">com.kriptofoni.news</string>
+    <string name="custom_url_scheme">com.kriptofoni.news</string>
+</resources>
