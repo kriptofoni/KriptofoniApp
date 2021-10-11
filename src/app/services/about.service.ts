@@ -7,11 +7,11 @@ export class AboutService {
 
     getAboutInformation() {
       return {
-        "headerTitle":"İletişim",
-        "title": "İletişim Bilgileri",
+        "headerTitle":"KRİPTOFONİ",
+        "title": "Hakkında / İletişim Bilgileri",
         "titleImage": "../assets/imgs/decoLogo.png",
-        "subtitle": "Kriptofoni, <br />2020 yılında Kriptofoni Teknoloji ve Tic. Ltd. Şti. tarafından hayata geçirilmiş bir projedir. Dünya ve Türkiye gündeminde yer alan Bitcoin ve diğer kripto para haberlerini herkesin anlayacağı bir dil ile kullanıcılarına sunar. Sadece gerekli bilgileri vererek ziyaretçilerini kripto para dünyası hakkında bilgilendirmeyi amaç edinmiştir.  Kriptofoni, tamamen tarafsız bir kripto para haber platformu olup, içeriklerini kendi yazar kadrosuyla üretmektedir. Ziyaretçilerinin ilgi duyduğu kripto para alanında makaleler ve videolar ile güncel içerikleri onlara ücretsiz olarak sunmaktadır. Kriptofoni ekibi ile iletişime geçmek için info@kriptofoni.com e-posta adresini kullanabilirsiniz.",
-        "description": "Amazing list of features",
+        "subtitle": "Kriptofoni, 2020 yılında Kriptofoni Teknoloji  Tic. Ltd. Şti. tarafından hayata geçirilmiş bir projedir. Dünya ve Türkiye gündeminde yer alan Bitcoin ve diğer kripto para haberlerini herkesin anlayacağı bir dil ile kullanıcılarına sunar. Sadece gerekli bilgileri vererek ziyaretçilerini kripto para dünyası hakkında bilgilendirmeyi amaç edinmiştir.",
+        "adres": "Adres: Yeşilova Mahallesi 4023. Cadde Ser Tower Residence 1/29 Etimesgut/Ankara",
         "about_text_button": "İletişime Geç",
         "about_text_button_link": "https://www.kriptofoni.com/iletisim-contact-us/",
         "items": [
