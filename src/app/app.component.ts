@@ -29,11 +29,20 @@ export class AppComponent {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: "HomePage", icon: "book-outline", url: "home" },
-      { title: 'Category', component: "CategoryPage", icon: "reader-outline", url: "category" },
-      { title: 'Bookmark', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
-      { title: 'About', component: "AboutPage", icon: "flag-outline", url: "about" },
-      { title: 'Settings', component: "settings", icon: "settings-outline", url: "settings" },
+      { title: 'Anasayfa', component: "HomePage", icon: "book-outline", url: "home" },
+      { title: 'Kategoriler', component: "CategoryPage", icon: "reader-outline", url: "category" },
+      { title: 'Piyasa Verileri (Canlı)', component: "", icon: "stats-chart-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
+      { title: '1 Saatin En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-saatte-en-cok-yukselen-coinler/" },
+      { title: '24 Saatin En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/24-saatte-en-cok-yukselen-coinler/" },
+      { title: '1 Haftanın En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-haftada-en-cok-yukselen-coinler/" },
+      { title: '1 Ayın En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-ayda-en-cok-yukselen-coinler/" },
+      { title: '1 Saatin En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-saatte-en-cok-dusen-coinler/" },
+      { title: '24 Saatin En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/24-saatte-en-cok-dusen-coinler/" },
+      { title: '1 Haftanın En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-haftada-en-cok-dusen-coinler/" },
+      { title: '1 Ayın En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-ayda-en-cok-dusen-coinler/" },
+      { title: 'Favoriler', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
+      { title: 'İletişim', component: "AboutPage", icon: "flag-outline", url: "about" },
+      { title: 'Ayarlar', component: "settings", icon: "settings-outline", url: "settings" },
     ];
   }
 

@@ -1,6 +1,6 @@
 {
-  "appId": "com.decouikit.newsIonic",
-  "appName": "Ionic4News",
+  "appId": "com.kriptofoni.news",
+  "appName": "Kriptofoni",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
