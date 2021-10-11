@@ -1,64 +1,41 @@
 {
   "project_info": {
-    "project_number": "827631053705",
-    "firebase_url": "https://news-wp-61cf4.firebaseio.com",
-    "project_id": "news-wp-61cf4",
-    "storage_bucket": "news-wp-61cf4.appspot.com"
+    "project_number": "472671097185",
+    "project_id": "possible-cycle-314818",
+    "storage_bucket": "possible-cycle-314818.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:827631053705:android:a640fcb51cad9b68f4cf58",
+        "mobilesdk_app_id": "1:472671097185:android:283212161846998df0f520",
         "android_client_info": {
           "package_name": "com.kriptofoni.news"
         }
       },
       "oauth_client": [
         {
-          "client_id": "827631053705-bf4o5i3enelje6tn5d5rc958rrsnigeq.apps.googleusercontent.com",
+          "client_id": "472671097185-geiep5sgj7f9kpi2dpjg737hftq9bvjb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDSg2VEWHbckLaL9SGx3UGf7EcDleCr2Rk"
+          "current_key": "AIzaSyBI79JWBAhxAsvv0gWInNrAueGj76z21tg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "827631053705-bf4o5i3enelje6tn5d5rc958rrsnigeq.apps.googleusercontent.com",
+              "client_id": "472671097185-geiep5sgj7f9kpi2dpjg737hftq9bvjb.apps.googleusercontent.com",
               "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:827631053705:android:d7a8e0470611db26f4cf58",
-        "android_client_info": {
-          "package_name": "com.decouikit.newsIonic"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "827631053705-bf4o5i3enelje6tn5d5rc958rrsnigeq.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDSg2VEWHbckLaL9SGx3UGf7EcDleCr2Rk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
+            },
             {
-              "client_id": "827631053705-bf4o5i3enelje6tn5d5rc958rrsnigeq.apps.googleusercontent.com",
-              "client_type": 3
+              "client_id": "472671097185-36605u3log7mab7c1pr7tcsbe6cgoie6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kriptofoni.news"
+              }
             }
           ]
         }
