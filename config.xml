@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kriptofoni.news" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Kriptofoni</name>
-    <description>iOS ve Android için kriptofoni.com uygulaması.</description>
-    <author email="info@kriptofoni.com" href="https://www.kriptofoni.com/">Kriptofoni</author>
+<widget id="com.decouikit.newsIonic4" version="0.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>News Ionic 5 / Angular 10</name>
+    <description>An awesome Ionic/Cordova app.</description>
+    <author email="decouikit@gmail.com" href="https://devspush.com/">DevsPush Team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -104,12 +104,12 @@
     </plugin>
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.1.3" />
     <plugin name="cordova-plugin-admob-free" spec="^0.25.0">
-        <variable name="ADMOB_APP_ID" value="" />
+        <variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544/6300978111" />
     </plugin>
     <plugin name="ionic-plugin-deeplinks" spec="^1.0.17">
         <variable name="URL_SCHEME" value="deconews" />
         <variable name="DEEPLINK_SCHEME" value="https" />
-        <variable name="DEEPLINK_HOST" value="kriptofoni.com" />
+        <variable name="DEEPLINK_HOST" value="deconews.decouikit.com" />
         <variable name="ANDROID_PATH_PREFIX" value="/" />
         <variable name="ANDROID_2_PATH_PREFIX" value="/" />
         <variable name="ANDROID_3_PATH_PREFIX" value="/" />

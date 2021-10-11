@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>ANASAYFA</ion-title>
+    <ion-title>Deco News</ion-title>
   </ion-toolbar>
   <ion-toolbar>
     <!-- Segment Btton Home Page -->
@@ -21,10 +21,10 @@
     <!-- Featured News -->
     <ion-row class="ion-align-items-center" *ngIf="posts.length">
       <ion-col>
-        <h1 class="ion-padding-start text-size-lg text-color-primary ion-no-margin">Öne Çıkanlar</h1>
+        <h1 class="ion-padding-start text-size-lg text-color-primary ion-no-margin">Featured News</h1>
       </ion-col>
       <ion-col class="ion-text-end">
-        <ion-button size="small" fill="clear" class="button-title" (click)="openViewAll(true, $event)">Tümünü Görüntüle
+        <ion-button size="small" fill="clear" class="button-title" (click)="openViewAll(true, $event)">View All
         </ion-button>
       </ion-col>
     </ion-row>
@@ -59,7 +59,7 @@
           {{selectedCategory ? selectedCategory.name:""}}</h1>
       </ion-col>
       <ion-col class="ion-text-end">
-        <ion-button size="small" fill="clear" class="button-title" (click)="openViewAll(false, $event)">Tümünü Görüntüle
+        <ion-button size="small" fill="clear" class="button-title" (click)="openViewAll(false, $event)">View All
         </ion-button>
       </ion-col>
     </ion-row>
@@ -80,7 +80,7 @@
   <news-loading  *ngIf="initialLoading()"></news-loading>
 
   <ion-infinite-scroll threshold="100px" (ionInfinite)="doInfinite($event)">
-    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Daha fazlası yükleniyor...">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
     </ion-infinite-scroll-content>
   </ion-infinite-scroll>
 </ion-content>

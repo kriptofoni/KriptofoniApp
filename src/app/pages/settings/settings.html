@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-menu-button defaultHref="/"></ion-menu-button>
     </ion-buttons>
-    <ion-title class="ion-text-uppercase">AYARLAR</ion-title>
+    <ion-title class="ion-text-uppercase">Deco New</ion-title>
   </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -13,9 +13,13 @@
     <ion-row>
       <ion-col size="12">
         <ion-item class="transparent">
-          <ion-lable class="text-size-xs text-color-primary">Anlık bildirimleri etkinleştir</ion-lable>
+          <ion-lable class="text-size-xs text-color-primary">Enable push notification</ion-lable>
           <ion-checkbox slot="end" [(ngModel)]="isPushNotificationEnabled" (ionChange)="ionChange($event)">
           </ion-checkbox>
+        </ion-item>
+        <ion-item class="transparent">
+          <ion-lable class="text-size-xs text-color-primary">Testing our application with Rtl (enable)</ion-lable>
+          <ion-checkbox slot="end" [(ngModel)]="isRTLEnabled" (ionChange)="ionChangeRTL($event)"></ion-checkbox>
         </ion-item>
       </ion-col>
       <ion-col size="12">
@@ -23,14 +27,77 @@
         <ion-button class="ion-item theme-light ion-margin-top default-button" expand="full" shape="round"
           (click)="changeTheme('light-themes')">
           <ion-label>
-            <h2>Açık Tema</h2>
+            <h2>Light Thema</h2>
           </ion-label>
         </ion-button>
         <!-- Thema Drak -->
         <ion-button class="ion-item theme-dark ion-margin-top default-button" expand="full" shape="round"
           (click)="changeTheme('dark-themes')">
           <ion-label>
-            <h2>Koyu Tema</h2>
+            <h2>Drak Thema</h2>
+          </ion-label>
+        </ion-button>
+         <!-- Thema Red -->
+        <ion-button class="ion-item red-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('red-themes')">
+          <ion-label>
+            <h2>Red Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Pink -->
+        <ion-button class="ion-item pink-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('pink-themes')">
+          <ion-label>
+            <h2>Pink Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Grape -->
+        <ion-button class="ion-item grape-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('grape-themes')">
+          <ion-label>
+            <h2>Grape Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Violet -->
+        <ion-button class="ion-item violet-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('violet-themes')">
+          <ion-label>
+            <h2>Violet Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Blue -->
+        <ion-button class="ion-item blue-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('blue-themes')">
+          <ion-label>
+            <h2>Blue Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Teal -->
+        <ion-button class="ion-item teal-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('teal-themes')">
+          <ion-label>
+            <h2>Teal Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Green -->
+        <ion-button class="ion-item green-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('green-themes')">
+          <ion-label>
+            <h2>Green Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Yellow -->
+        <ion-button class="ion-item yellow-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('yellow-themes')">
+          <ion-label>
+            <h2>Yellow Thema</h2>
+          </ion-label>
+        </ion-button>
+        <!-- Thema Orange -->
+        <ion-button class="ion-item orange-theme ion-margin-top default-button" expand="full" shape="round"
+          (click)="changeTheme('orange-themes')">
+          <ion-label>
+            <h2>Orange Thema</h2>
           </ion-label>
         </ion-button>
       </ion-col>

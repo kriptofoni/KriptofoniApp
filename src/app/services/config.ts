@@ -1,7 +1,7 @@
 export const ConfigData = {
 
   // DEFINE YOUR URL
-  'rootUrl': 'https://www.kriptofoni.com/wp-json/wp/v2/',
+  'rootUrl': 'https://deconews.decouikit.com/wp-json/wp/v2/',
 
   // enableExcludeFromMenu SET TO true TO ENABLE excudeFromMenu
   //if want to exclude from menu your category set value FALSE
@@ -9,10 +9,10 @@ export const ConfigData = {
 
   // SOCIAL NETWORK
   'socialLink': {
-    'facebook': 'https://www.facebook.com/kriptofoni',
-    'twitter': 'https://twitter.com/kriptofoni',
+    'facebook': 'https://www.facebook.com',
+    'twitter': 'https://twitter.com',
     'youtube': 'https://www.youtube.com/',
-    'instagram': 'https://www.instagram.com/kriptofoni'
+    'instagram': 'https://www.instagram.com'
   },
 
 
@@ -20,7 +20,7 @@ export const ConfigData = {
   'isExcludeCategoryEnabled': true,
 
   'excludeFromMenu': {
-    'altcoin-rehberleri': true,
+    // 'travel': true,
   },
 
   'includeFromMenu': {
@@ -33,8 +33,8 @@ export const ConfigData = {
 
   // SETTINGS PARAMS fOR ONE SIGNAL
   'oneSignal': {
-    "appID": "8f082bf8-1305-481f-b99c-441a7645b971",
-    "googleProjectId": "472671097185"
+    "appID": "83db8e6c-0b1c-4a99-880a-7700e94dad3a",
+    "googleProjectId": "827631053705"
   },
 
 
@@ -43,7 +43,7 @@ export const ConfigData = {
 
 
   // SETTINGS DEFAUTL COLOR COMBINATION
-  'colorTheme': 'light-themes',
+  'colorTheme': 'dark-themes',
 
 
   // SETTINGS RTL ( FALSE - is not set rtl default  )
@@ -55,10 +55,10 @@ export const ConfigData = {
 
 
   // SLIDER NUMBER BUT IT IS NOT STICKY ( isFeaturesPostsGetFromSticky:FALSE)
-  'numberOfItemForSlider': 5,
+  'numberOfItemForSlider': 3,
 
   // SETTINGS NUMBER POSTS ON CATEGORY
-  'numberOfItemPerPage': 10,
+  'numberOfItemPerPage': 30,
 
   'isCacheCategoryEnabled': false,  
   'cacheExpiredTime': 24 * 60 * 60 * 1000, //24H
@@ -67,22 +67,22 @@ export const ConfigData = {
     
   //ADS
   'bannerAds': {
-    'enable': false,
+    'enable': true,
     'config': {
       'id': '',
-      'isTesting': false,
-      'autoShow': false
+      'isTesting': true,
+      'autoShow': true
     }
   },
 
   // How to set time open ADS page
   'interstitialAds': {
     'showAdsAfterXPosts': 10,
-    'enable': false,
+    'enable': true,
     'config': {
       'id': '',
-      'isTesting': false,
-      'autoShow': false
+      'isTesting': true,
+      'autoShow': true
     }
   }
 }

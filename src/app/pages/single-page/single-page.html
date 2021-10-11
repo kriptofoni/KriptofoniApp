@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-uppercase">HABER İÇERİĞİ</ion-title>
+    <ion-title class="ion-text-uppercase">DECO NEWS</ion-title>
   </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -33,6 +33,12 @@
             <div class="clearfix"></div>
             <!--- Title Post -->
             <h1 class="text-size-xl text-color-primary" [innerHTML]="htmlTitle"></h1>
+            <!--Tags-->
+            <ion-col size="12" *ngFor="let item of post.tagsList">
+              <span class="tag" (click)="openHashtag(item, $event)">
+                #{{item.slug}}
+              </span>
+            </ion-col>
             <ion-item class="ion-no-padding transparent" lines="none">
               <ion-label>
                 <!-- Time -->
@@ -44,7 +50,7 @@
                 <div class="commnets ion-margin-horizontal" (click)="openCommentList(post, $event)">
                   <ion-icon class="icon-small" name="chatbubble"></ion-icon>
                   <p class="text-size-p text-color-primary"> {{ numberOfComment > 99 ? '99+' : numberOfComment }}
-                    Yorum</p>
+                    comments</p>
                 </div>
               </ion-label>
             </ion-item>
@@ -54,12 +60,6 @@
             <!--- Content with web site-->
             <div [innerHTML]="htmlContent"></div>
           </ion-card-content>
-          <!--Tags-->
-          <ion-col size="12" *ngFor="let item of post.tagsList">
-              <span class="tag" (click)="openHashtag(item, $event)">
-                #{{item.slug}}
-              </span>
-          </ion-col>
         </ion-card>
         <news-list [categoryId]="post.categoryId" [postId]="post.id" [title]=""
           (onItemClick)="onItemClick($event)"></news-list>
@@ -71,6 +71,6 @@
   <ion-toolbar class="transparent">
     <!-- Wtite a comment-->
     <ion-button *ngIf="isCommentEnabled(post)" expand="full" class="default-button" (click)="openComment(post, $event)">
-      Yorum Yap</ion-button>
+      Write a Comment</ion-button>
   </ion-toolbar>
 </ion-footer>

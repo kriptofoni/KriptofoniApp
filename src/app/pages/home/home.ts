@@ -34,8 +34,8 @@ export class HomePage {
   loading = true;
 
   emptyState = {
-    "title": "İçerik bulunamadı.",
-    "subtitle": "Herhangi bir içerik bulunamadı."
+    "title": "Uups, no data!",
+    "subtitle": "Sorry no posts here"
   }
 
   sliderConfig = {

@@ -13,13 +13,21 @@
     <ion-row>
       <ion-col size="12" class="ion-text-center align-self-start">
         <div class="logo ion-padding-vertical">
-          <img [src]="about.titleImage" alt="" width="90" height="73" />
+          <img [src]="about.titleImage" alt="" />
           <h1 class="text-size-md text-color-primary">{{about.title}}</h1>
           <p class="text-size-md text-color-primary">{{about.subtitle}}</p>
-          <p class="text-size-md text-color-primary">{{about.adres}}</p>
-          <p class="text-size-md text-color-primary">{{about.eposta}}</p>
-          <p class="text-size-md text-color-primary">{{about.telefon}}</p>
         </div>
+      </ion-col>
+      <ion-col size="12" class="align-self-end box-shadow ion-no-padding">
+        <ion-item lines="none">
+          <h2 class="header-title text-color-primary">{{about.description}}</h2>
+        </ion-item>
+        <ion-item lines="none" *ngFor="let item of about.items">
+          <ion-icon class="icon-small" name="checkbox-outline"></ion-icon>
+          <ion-label class="ion-margin-start">
+            <h3 class="text-size-md text-color-primary ion-text-wrap">{{item.title}}</h3>
+          </ion-label>
+        </ion-item>
       </ion-col>
     </ion-row>
   </ion-grid>

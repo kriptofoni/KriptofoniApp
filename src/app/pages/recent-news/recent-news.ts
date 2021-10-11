@@ -32,9 +32,9 @@ export class RecentNewsPage {
         if (params['featured']) {
           self.featured = params['featured'];
           if (self.featured == 'true') {
-            self.title = 'Öne Çıkanlar'
+            self.title = 'Features post'
           } else {
-            self.title = 'Son Haberler'
+            self.title = 'Recent post'
           }
         }
       });
