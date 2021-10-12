@@ -4,7 +4,9 @@
       <ion-buttons slot="start">
         <ion-menu-button defaultHref="/"></ion-menu-button>
       </ion-buttons>
-      <ion-title class="ion-text-uppercase">{{about.headerTitle}}</ion-title>
+      <ion-title>
+        <img src="../assets/imgs/kf.png" alt="logo" style="width:250px; margin-top:5px; margin-bottom:5px;" />
+      </ion-title>
     </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -13,12 +15,11 @@
     <ion-row>
       <ion-col size="12" class="ion-text-center align-self-start">
         <div class="logo ion-padding-vertical">
-          <img [src]="about.titleImage" alt="" width="90" height="73" />
           <h1 class="text-size-md text-color-primary">{{about.title}}</h1>
-          <p class="text-size-md text-color-primary">{{about.subtitle}}</p>
-          <p class="text-size-md text-color-primary">{{about.adres}}</p>
-          <p class="text-size-md text-color-primary">{{about.eposta}}</p>
-          <p class="text-size-md text-color-primary">{{about.telefon}}</p>
+          <p class="text-size-md text-color-primary"><strong>Hakkında:</strong> {{about.subtitle}}</p>
+          <p class="text-size-md text-color-primary"><strong>Adres:</strong> {{about.adres}}</p>
+          <p class="text-size-md text-color-primary"><strong>E-Posta:</strong> {{about.eposta}}</p>
+          <p class="text-size-md text-color-primary"><strong>Telefon:</strong> {{about.telefon}}</p>
         </div>
       </ion-col>
     </ion-row>

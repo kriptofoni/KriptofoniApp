@@ -39,7 +39,6 @@
     "@ionic/storage": "^2.2.0",
     "color": "^3.1.2",
     "cordova-browser": "6.0.0",
-    "cordova-ios": "^6.0.0",
     "cordova-plugin-androidx": "^2.0.0",
     "cordova-plugin-androidx-adapter": "^1.1.1",
     "cordova-plugin-file": "6.0.2",
@@ -54,6 +53,7 @@
     "ionicons": "^5.0.1",
     "native": "^0.3.3",
     "native-run": "^1.0.0",
+    "onesignal-cordova-plugin": "^3.0.0",
     "run": "^1.4.0",
     "rxjs": "^6.5.5",
     "rxjs-compat": "^6.5.5",
@@ -81,6 +81,7 @@
     "codelyzer": "~5.2.2",
     "cordova-admob-sdk": "^0.24.1",
     "cordova-android": "^9.1.0",
+    "cordova-ios": "^6.2.0",
     "cordova-plugin-admob-free": "^0.27.0",
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
@@ -100,7 +101,6 @@
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "~3.3.1",
     "karma-jasmine-html-reporter": "^1.5.4",
-    "onesignal-cordova-plugin": "^2.11.4",
     "protractor": "~7.0.0",
     "ts-node": "^8.10.2",
     "tslint": "~6.1.2",
@@ -146,7 +146,6 @@
       "onesignal-cordova-plugin": {}
     },
     "platforms": [
-      "ios",
       "browser",
       "android"
     ]

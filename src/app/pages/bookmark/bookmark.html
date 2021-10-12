@@ -4,7 +4,9 @@
       <ion-buttons slot="start">
         <ion-menu-button defaultHref="/"></ion-menu-button>
       </ion-buttons>
-      <ion-title class="ion-text-uppercase">FAVORİ İÇERİKLER</ion-title>
+      <ion-title>
+        <img src="../assets/imgs/kf.png" alt="logo" style="width:250px; margin-top:5px; margin-bottom:5px;" />
+      </ion-title>
     </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -23,11 +25,16 @@
     <ion-row *ngIf="!posts.length" class="ion-align-items-center">
       <ion-col>
         <div class="no-post ion-text-center">
-          <img src="../assets/imgs/decoLogo.png" alt="" width="90" height="73" />
-          <h1 class="text-size-xl text-color-primary">Favorilere eklenmiş içerik yok.</h1>
-          <p class="text-size-md text-color-primary">Favorilere içerik eklemek için "Favori" ikonunu kullanabilirsiniz.</p>
+          <h1 class="text-size-xl text-color-primary">Favorilere herhangi bir içerik eklenmemiş.</h1>
+          <p class="text-size-md text-color-primary">Favorilere içerik eklemek için içerik görsellerinin üstündeki "Favori" ikonunu kullanabilirsiniz.</p>
         </div>
       </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
+<ion-footer>
+  <ion-toolbar class="transparent">
+    <!-- Binance Ref -->
+    <ion-button expand="full" color="danger" href="https://bit.ly/3lLWJED">KRİPTO PARA BORSASI BINANCE'DA ÖMÜR<br />BOYU %20 KOMİSYON İNDİRİMİ İÇİN TIKLA!</ion-button>
+  </ion-toolbar>
+</ion-footer>

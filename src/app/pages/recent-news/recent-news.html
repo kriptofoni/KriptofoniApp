@@ -3,7 +3,9 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title>SON HABERLER</ion-title>
+    <ion-title>
+      <img src="../assets/imgs/kf.png" alt="logo" style="width:250px; margin-top:5px; margin-bottom:5px;" />
+    </ion-title>
     <ion-button slot="end" class="ion-margin-end" fill="clear" (click)="setSearchActive(true, $event)">
       <ion-icon class="icon-small" name="search-outline"></ion-icon>
     </ion-button>
@@ -45,3 +47,9 @@
     (onRefreshCompleted)="onRefreshCompleted()"
     [title]="title"></news-list>
 </ion-content>
+<ion-footer>
+  <ion-toolbar class="transparent">
+    <!-- Binance Ref -->
+    <ion-button expand="full" color="danger" href="https://bit.ly/3lLWJED">KRİPTO PARA BORSASI BINANCE'DA ÖMÜR<br />BOYU %20 KOMİSYON İNDİRİMİ İÇİN TIKLA!</ion-button>
+  </ion-toolbar>
+</ion-footer>

@@ -8,24 +8,24 @@ export class NewsWizardService {
     //* Data Set for page 1
     getNewsWizardData = (): any => {
         return {
-             "btnPrev": "Previous",
-             "btnNext": "Next",
-             "btnFinish": "Finish",
+             "btnPrev": "Önceki",
+             "btnNext": "Sonraki",
+             "btnFinish": "Bitir",
              "items": [
                  {
                     "avatarImage": "https://decouikit.com/presentationEnvato/deco-news-android/magic.png",
-                     "title": "Magic",
-                     "description": "Make mobile application from your Wordpress web"
+                     "title": "Teşekkürümüz Var",
+                     "description": "Kriptofoni uygulamasını indirdiğiniz ve kullandığınız için teşekkür ederiz."
                  },
                  {
                     "avatarImage": "https://decouikit.com/presentationEnvato/deco-news-android/design.png",
-                     "title": "Design",
-                     "description": "Fresh & stylish design for your mobile news app"
+                     "title": "Gizliliğe Önem Veriyoruz",
+                     "description": "Kriptofoni olarak gizliliğinize önem veriyor, gizliliğin çok daha önemli olduğu Bitcoin ve kripto para ekosisteminde hiçbir kişisel bilginizle veya kişisel verinizle ilgilenmediğimizi bilmenizi istiyoruz."
                  },
                  {
                     "avatarImage": "https://decouikit.com/presentationEnvato/deco-news-android/code.png",
-                     "title": "Code",
-                     "description": "Well written code with online documentation"
+                     "title": "Sürekli Yenileniyor, Gelişiyoruz",
+                     "description": "7/24 güncellenen içeriklerimiz gibi, en iyi Bitcoin ve kripto para haber mobil uygulaması olarak sürekli olarak gelişiyor, yenileniyoruz. Görüş, öneri, istek ve şikayetleriniz için info@kriptofoni.com'u kullanabilirsiniz."
                  }
              ]
         };

@@ -4,7 +4,9 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-uppercase">YORUMLAR</ion-title>
+    <ion-title>
+      <img src="../assets/imgs/kf.png" alt="logo" style="width:250px; margin-top:5px; margin-bottom:5px;" />
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 <!-- Content -->
@@ -34,8 +36,7 @@
     <ion-row *ngIf="!comments.length" class="ion-align-items-center">
       <ion-col size="12">
         <div class="no-post ion-text-center">
-          <img src="../assets/imgs/decoLogo.png" alt="" />
-          <h1 class="text-size-xl text-color-primary">Yorum Yapılmamış</h1>
+          <h1 class="text-size-xl text-color-primary">Yorum Yok</h1>
           <p class="text-size-md text-color-primary">Henüz hiç yorum yapılmamış.</p>
         </div>
       </ion-col>

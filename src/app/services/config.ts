@@ -20,7 +20,7 @@ export const ConfigData = {
   'isExcludeCategoryEnabled': true,
 
   'excludeFromMenu': {
-    'altcoin-rehberleri': true,
+    // 'altcoin-haberleri': true,
   },
 
   'includeFromMenu': {
@@ -29,7 +29,7 @@ export const ConfigData = {
 
 
   // INTRO PAGE IN APP ( TRUE - slider is enable)
-  'introData': false,
+  'introData': true,
 
   // SETTINGS PARAMS fOR ONE SIGNAL
   'oneSignal': {

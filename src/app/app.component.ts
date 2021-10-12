@@ -29,19 +29,13 @@ export class AppComponent {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Anasayfa', component: "HomePage", icon: "book-outline", url: "home" },
-      { title: 'Kategoriler', component: "CategoryPage", icon: "reader-outline", url: "category" },
-      { title: 'Piyasa Verileri (Canlı)', component: "", icon: "stats-chart-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
-      { title: '1 Saatin En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-saatte-en-cok-yukselen-coinler/" },
-      { title: '24 Saatin En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/24-saatte-en-cok-yukselen-coinler/" },
-      { title: '1 Haftanın En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-haftada-en-cok-yukselen-coinler/" },
-      { title: '1 Ayın En Çok Yükselenleri', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-ayda-en-cok-yukselen-coinler/" },
-      { title: '1 Saatin En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-saatte-en-cok-dusen-coinler/" },
-      { title: '24 Saatin En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/24-saatte-en-cok-dusen-coinler/" },
-      { title: '1 Haftanın En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-haftada-en-cok-dusen-coinler/" },
-      { title: '1 Ayın En Çok Düşenleri', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-ayda-en-cok-dusen-coinler/" },
+      { title: 'Anasayfa', component: "HomePage", icon: "home-outline", url: "home" },
+      { title: 'Kategoriler', component: "CategoryPage", icon: "file-tray-stacked-outline", url: "category" },
+      { title: 'Piyasa Verileri (YAKINDA)', component: "", icon: "stats-chart-outline", url: "https://www.kriptofoni.com/kripto-para-fiyatlari/" },
+      { title: 'En Çok Yükselenler (YAKINDA)', component: "", icon: "trending-up-outline", url: "https://www.kriptofoni.com/1-saatte-en-cok-yukselen-coinler/" },
+      { title: 'En Çok Düşenler (YAKINDA)', component: "", icon: "trending-down-outline", url: "https://www.kriptofoni.com/1-ayda-en-cok-yukselen-coinler/" },
       { title: 'Favoriler', component: "BookmarkPage", icon: "bookmarks-outline", url: "bookmark" },
-      { title: 'İletişim', component: "AboutPage", icon: "flag-outline", url: "about" },
+      { title: 'İletişim', component: "AboutPage", icon: "chatbox-ellipses-outline", url: "about" },
       { title: 'Ayarlar', component: "settings", icon: "settings-outline", url: "settings" },
     ];
   }
